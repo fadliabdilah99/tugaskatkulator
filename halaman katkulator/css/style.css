@@ -1,0 +1,87 @@
+.navbar span {
+  color: rgb(255, 251, 0);
+}
+.menu {
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding-left: 1rem;
+}
+.welcome {
+  margin-right: 15rem;
+  margin-left: 2rem;
+}
+.welcome span {
+  margin-right: 8px;
+}
+.welcome h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Courier New", Courier, monospace;
+}
+.img {
+  position: relative;
+}
+.img img {
+  border-radius: 20px;
+  margin-left: 10rem;
+  position: relative;
+}
+.welcome a {
+  color: rgb(255, 255, 255);
+  background-color: indigo;
+}
+.kontenmenu {
+  background-color: rgb(102, 98, 51);
+  height: 100vh;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+#projek {
+  background-color: rgb(102, 98, 51);
+}
+.wadah {
+  padding: 0 20rem 20rem 20rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.containerr {
+  background-color: rgb(102, 98, 51);
+  height: 50vh;
+  transition: ease-in-out 0.2s;
+}
+
+.button:hover {
+  background-color: #3e9141;
+  transition: ease-in-out 0.5s;
+}
